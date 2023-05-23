@@ -13,7 +13,7 @@ body{
 .left-column {
   
   padding: 50px;
-  background-color:black;
+  background-color: rgb(23, 23, 47);
   color:white;
   width: 100%;
   order: 2;
@@ -29,8 +29,9 @@ align-items: center;
 .header {
   /* grid-area: header; */
   padding: 40px;
-  background-color: #f2f2f2;
+  background-color: rgb(23, 23, 47);
   text-align: center;
+
 }
 
 .content {
@@ -38,12 +39,6 @@ align-items: center;
   padding: 50px;
 }
 
-.photo-avatar {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  margin-bottom: 20px;
-}
 
 .personal-details,
 .education {
@@ -79,32 +74,25 @@ img{
 h1{
   text-align: center;
   display: inline-block;
-  border: 10px solid red;
-  padding: 10px;
  
+} 
 
-}
-h2{
-  text-align: center;
-  text-decoration: underline;
-  font-weight: 600 !important;
-
-}
-.header {
-  background-color: #000000;
-  position: relative;
-  overflow: hidden;
-  height: 200px; 
-  background-image: url(adobestock-120599217.webp);
-  background-repeat: repeat;
-  opacity: 1; 
-}
 
 .header h1 {
   color: #ffffff;
   padding: 20px;
+  margin-top: auto;
 }
-
+.header h3 {
+  color: #ffffff;
+  padding: 20px;
+}
+.header li { 
+  display: inline-block;
+  color: white;
+  margin-left: 20%;
+  margin-right: 20%;
+}
 
 
 @media screen and (min-width: 576px){

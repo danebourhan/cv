@@ -8,12 +8,14 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
 </head>
 <body>
-    <div class="container-fluid">
+    <div class="container-fluid g-0" >
         <div class="left-column">
-            <img src="photo-avatar-mini.jpg" alt="photo-avatar-mini" class="photo-avatar-mini">
-            <section class="personal-details">
+            <div class="photo-avatar-mini">
+            <img src="photo-avatar-mini.jpg" alt="photo-avatar-mini" >
+        </div>
+            <!-- <section class="personal-details"> -->
                 <div class="about-me">
-                    <h1>À propos de moi</h1>
+                    <h2>À propos de moi</h2>
                     <p>Passionné par le développement informatique, je suis actuellement en reconversion professionnelle vers le domaine du développement web. Ayant eu un parcours atypique, j'ai décidé de suivre une formation au sein du centre AFCI pour acquérir les compétences nécessaires.</p>
                     <p>En collaboration avec AFCI, j'ai commencé à apprendre les langages de base tels que HTML, CSS .</p>
                     <p>Grâce à mon parcours antérieur, j'ai développé des qualités telles que la créativité, la résolution de problèmes et une grande capacité d'adaptation. Je suis enthousiaste à l'idée de continuer mon apprentissage en tant que développeur web, et je suis prêt à mettre en pratique mes connaissances et compétences acquises au sein d'AFCI.</p>
@@ -31,25 +33,35 @@
                     <li><strong>BPJEPS spécialité basket</strong> - CREPS de Wattignies, 2015</li>
                 </ul>
             </section>
-            <section class="hobbies">
+            <!-- <section class="hobbies">
                 <h2>Loisirs</h2>
                 <ul>
                     <li>Voyage</li>
                     <li>Basket</li>
                     <li>Cinéma</li>
-                </ul>
+                </ul> -->
             </section>
         </div>
         <div class="right-column">
-            <div class="header"><h1>DANE BOURHAN AREF</h1>
+            <div class="header">
+                <div class="dark-mode">
+                    <input type="checkbox" id="chk" class="checkbox">
+                    <label class="label" for="chk">
+                        <i class="fa-solid fa-sun"></i>
+                        <i class="fa-solid fa-moon"></i>
+                        <span class="ball"></span>
+                    </label>
+                </div>
+                <h1>DANE BOURHAN AREF</h1>
                 <h3>developpeur web & mobile</h3>
+                
                 <li ><i class="fa-solid fa-house"></i> 24/21 rue Paul Ramadier, 59800 Lille</li>
                 <li ><i class="fa-solid fa-phone"></i> 06 56 71 34 82</li>
                     <li ><i class="fa-solid fa-envelope"></i></i> bourhan.dane@gmail.com</li>
-            
+               
             
             </div>
-            <div class="content"></div> 
+            
             <section class="experience">
                 <h2>Expérience professionnelle</h2>
                 <ul>

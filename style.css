@@ -34,7 +34,7 @@ align-items: center;
 }
 
 .photo-avatar-mini{
- height: 307px;
+ height: 322px;
 }
 
 .header {
@@ -46,6 +46,7 @@ align-items: center;
   padding-bottom: 20px;
   padding-top: 15px;
   border-bottom: white 2px solid;
+
  
 
 }
@@ -104,6 +105,7 @@ h2{
 .experience h3{
    padding-top: 25px; 
 }
+
 
 .header h1 {
   color: black;
